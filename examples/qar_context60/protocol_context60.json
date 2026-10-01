@@ -1,0 +1,52 @@
+{
+  "name": "QAR context60 history forecast protocol",
+  "phase_segment_len": 80,
+  "current_context_len": 60,
+  "target_len": 20,
+  "label_len": 20,
+  "main_table_history_count": 5,
+  "main_table_seq_len": 460,
+  "main_table_pred_len": 20,
+  "anchors": [
+    "predict_2_3",
+    "predict_4_5",
+    "predict_5_6",
+    "predict_8_9"
+  ],
+  "analysis_history_counts": [
+    2,
+    3,
+    5,
+    8,
+    12
+  ],
+  "main_table_models": [
+    "TiRex-2",
+    "Chronos-2",
+    "TimesFM-2.5",
+    "Toto-2.0",
+    "Moirai-2.0"
+  ],
+  "history_analysis_models": [
+    "TiRex-2",
+    "Chronos-2",
+    "Toto-2.0"
+  ],
+  "univariate_multivariate_models": [
+    "Chronos-2",
+    "TiRex-2",
+    "Toto-2.0"
+  ],
+  "forecast_metric": "loss = (MAE + RMSE) / 2",
+  "main_score": "score = 100 / (1 + dataset_level_loss), then average across datasets",
+  "aggregation": {
+    "anchor_level": "compute MAE/MSE/RMSE/loss from pred.npy and true.npy",
+    "dataset_level": "mean over four anchors: predict_2_3, predict_4_5, predict_5_6, predict_8_9",
+    "model_level": "mean over datasets"
+  },
+  "univariate_fix": {
+    "history_count": 5,
+    "method": "forecast each feature as one-channel, stitch feature predictions in index order into (N, pred_len, C), then compute MAE/RMSE/loss once",
+    "reason": "this avoids giving each feature row equal weight after pre-aggregated per-feature metrics have already rounded or weighted samples differently"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "data_root": "examples/qar_context60/data",
+  "output": "examples/qar_context60/outputs/smoke",
+  "main_rows": 2,
+  "main_anchor_rows": 8,
+  "hist_rows": 2,
+  "uni_multi_rows": 2,
+  "classification_rows": 1,
+  "protocol": "80*hist + 60 context -> 20 target"
+}

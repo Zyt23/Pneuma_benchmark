@@ -1,0 +1,14 @@
+anchor,dataset,history_count,kind,path,pred_len,samples,seq_len
+predict_2_3,dataset_demo,,phase_segment,examples/qar_context60/data/phase_segments/predict_2_3/dataset_demo/qar_compact_shiftN80.npz,,14,
+predict_2_3,dataset_demo,2,context60_forecast,examples/qar_context60/data/context60/hist2/predict_2_3/dataset_demo/qar_compact_shiftN80.npz,20,12,220
+predict_2_3,dataset_demo,5,context60_forecast,examples/qar_context60/data/context60/hist5/predict_2_3/dataset_demo/qar_compact_shiftN80.npz,20,9,460
+predict_4_5,dataset_demo,,phase_segment,examples/qar_context60/data/phase_segments/predict_4_5/dataset_demo/qar_compact_shiftN80.npz,,14,
+predict_4_5,dataset_demo,2,context60_forecast,examples/qar_context60/data/context60/hist2/predict_4_5/dataset_demo/qar_compact_shiftN80.npz,20,12,220
+predict_4_5,dataset_demo,5,context60_forecast,examples/qar_context60/data/context60/hist5/predict_4_5/dataset_demo/qar_compact_shiftN80.npz,20,9,460
+predict_5_6,dataset_demo,,phase_segment,examples/qar_context60/data/phase_segments/predict_5_6/dataset_demo/qar_compact_shiftN80.npz,,14,
+predict_5_6,dataset_demo,2,context60_forecast,examples/qar_context60/data/context60/hist2/predict_5_6/dataset_demo/qar_compact_shiftN80.npz,20,12,220
+predict_5_6,dataset_demo,5,context60_forecast,examples/qar_context60/data/context60/hist5/predict_5_6/dataset_demo/qar_compact_shiftN80.npz,20,9,460
+predict_8_9,dataset_demo,,phase_segment,examples/qar_context60/data/phase_segments/predict_8_9/dataset_demo/qar_compact_shiftN80.npz,,14,
+predict_8_9,dataset_demo,2,context60_forecast,examples/qar_context60/data/context60/hist2/predict_8_9/dataset_demo/qar_compact_shiftN80.npz,20,12,220
+predict_8_9,dataset_demo,5,context60_forecast,examples/qar_context60/data/context60/hist5/predict_8_9/dataset_demo/qar_compact_shiftN80.npz,20,9,460
+predict_2_3,dataset_demo,,classification,examples/qar_context60/data/classification/dataset_demo/qar_compact_shiftN80.npz,,14,80

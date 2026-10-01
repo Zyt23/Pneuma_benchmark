@@ -1,0 +1,132 @@
+[
+  {
+    "kind": "phase_segment",
+    "dataset": "dataset_demo",
+    "anchor": "predict_2_3",
+    "history_count": "",
+    "samples": 14,
+    "seq_len": "",
+    "pred_len": "",
+    "path": "examples/qar_context60/data/phase_segments/predict_2_3/dataset_demo/qar_compact_shiftN80.npz"
+  },
+  {
+    "kind": "context60_forecast",
+    "dataset": "dataset_demo",
+    "anchor": "predict_2_3",
+    "history_count": 2,
+    "samples": 12,
+    "seq_len": 220,
+    "pred_len": 20,
+    "path": "examples/qar_context60/data/context60/hist2/predict_2_3/dataset_demo/qar_compact_shiftN80.npz"
+  },
+  {
+    "kind": "context60_forecast",
+    "dataset": "dataset_demo",
+    "anchor": "predict_2_3",
+    "history_count": 5,
+    "samples": 9,
+    "seq_len": 460,
+    "pred_len": 20,
+    "path": "examples/qar_context60/data/context60/hist5/predict_2_3/dataset_demo/qar_compact_shiftN80.npz"
+  },
+  {
+    "kind": "phase_segment",
+    "dataset": "dataset_demo",
+    "anchor": "predict_4_5",
+    "history_count": "",
+    "samples": 14,
+    "seq_len": "",
+    "pred_len": "",
+    "path": "examples/qar_context60/data/phase_segments/predict_4_5/dataset_demo/qar_compact_shiftN80.npz"
+  },
+  {
+    "kind": "context60_forecast",
+    "dataset": "dataset_demo",
+    "anchor": "predict_4_5",
+    "history_count": 2,
+    "samples": 12,
+    "seq_len": 220,
+    "pred_len": 20,
+    "path": "examples/qar_context60/data/context60/hist2/predict_4_5/dataset_demo/qar_compact_shiftN80.npz"
+  },
+  {
+    "kind": "context60_forecast",
+    "dataset": "dataset_demo",
+    "anchor": "predict_4_5",
+    "history_count": 5,
+    "samples": 9,
+    "seq_len": 460,
+    "pred_len": 20,
+    "path": "examples/qar_context60/data/context60/hist5/predict_4_5/dataset_demo/qar_compact_shiftN80.npz"
+  },
+  {
+    "kind": "phase_segment",
+    "dataset": "dataset_demo",
+    "anchor": "predict_5_6",
+    "history_count": "",
+    "samples": 14,
+    "seq_len": "",
+    "pred_len": "",
+    "path": "examples/qar_context60/data/phase_segments/predict_5_6/dataset_demo/qar_compact_shiftN80.npz"
+  },
+  {
+    "kind": "context60_forecast",
+    "dataset": "dataset_demo",
+    "anchor": "predict_5_6",
+    "history_count": 2,
+    "samples": 12,
+    "seq_len": 220,
+    "pred_len": 20,
+    "path": "examples/qar_context60/data/context60/hist2/predict_5_6/dataset_demo/qar_compact_shiftN80.npz"
+  },
+  {
+    "kind": "context60_forecast",
+    "dataset": "dataset_demo",
+    "anchor": "predict_5_6",
+    "history_count": 5,
+    "samples": 9,
+    "seq_len": 460,
+    "pred_len": 20,
+    "path": "examples/qar_context60/data/context60/hist5/predict_5_6/dataset_demo/qar_compact_shiftN80.npz"
+  },
+  {
+    "kind": "phase_segment",
+    "dataset": "dataset_demo",
+    "anchor": "predict_8_9",
+    "history_count": "",
+    "samples": 14,
+    "seq_len": "",
+    "pred_len": "",
+    "path": "examples/qar_context60/data/phase_segments/predict_8_9/dataset_demo/qar_compact_shiftN80.npz"
+  },
+  {
+    "kind": "context60_forecast",
+    "dataset": "dataset_demo",
+    "anchor": "predict_8_9",
+    "history_count": 2,
+    "samples": 12,
+    "seq_len": 220,
+    "pred_len": 20,
+    "path": "examples/qar_context60/data/context60/hist2/predict_8_9/dataset_demo/qar_compact_shiftN80.npz"
+  },
+  {
+    "kind": "context60_forecast",
+    "dataset": "dataset_demo",
+    "anchor": "predict_8_9",
+    "history_count": 5,
+    "samples": 9,
+    "seq_len": 460,
+    "pred_len": 20,
+    "path": "examples/qar_context60/data/context60/hist5/predict_8_9/dataset_demo/qar_compact_shiftN80.npz"
+  },
+  {
+    "kind": "classification",
+    "dataset": "dataset_demo",
+    "anchor": "predict_2_3",
+    "history_count": "",
+    "samples": 14,
+    "seq_len": 80,
+    "pred_len": "",
+    "path": "examples/qar_context60/data/classification/dataset_demo/qar_compact_shiftN80.npz"
+  }
+]

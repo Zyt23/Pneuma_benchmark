@@ -1,0 +1,9 @@
+history_count,anchor,dataset,dataset_label,model,seq_len,pred_len,mae,mse,rmse,loss,result_dir
+5,predict_2_3,dataset_demo,DEMO-QAR,NaiveLast,460,20,0.03041567876935005,0.0014396115817444822,0.03794221371697337,0.034178946243161715,examples/qar_context60/outputs/smoke/result_arrays/main/NaiveLast/predict_2_3/dataset_demo
+5,predict_2_3,dataset_demo,DEMO-QAR,LinearDrift,460,20,0.021099097093548434,0.0009157531399403841,0.03026141338305903,0.02568025523830373,examples/qar_context60/outputs/smoke/result_arrays/main/LinearDrift/predict_2_3/dataset_demo
+5,predict_4_5,dataset_demo,DEMO-QAR,NaiveLast,460,20,0.03811080099807845,0.002350745931152281,0.04848449165611909,0.043297646327098774,examples/qar_context60/outputs/smoke/result_arrays/main/NaiveLast/predict_4_5/dataset_demo
+5,predict_4_5,dataset_demo,DEMO-QAR,LinearDrift,460,20,0.03288711779045336,0.00257952429287642,0.050789017443502685,0.041838067616978024,examples/qar_context60/outputs/smoke/result_arrays/main/LinearDrift/predict_4_5/dataset_demo
+5,predict_5_6,dataset_demo,DEMO-QAR,NaiveLast,460,20,0.048313192650675775,0.003400810807122555,0.058316471147717396,0.053314831899196585,examples/qar_context60/outputs/smoke/result_arrays/main/NaiveLast/predict_5_6/dataset_demo
+5,predict_5_6,dataset_demo,DEMO-QAR,LinearDrift,460,20,0.028070990699860784,0.0017952594172774283,0.042370501735021125,0.03522074621744095,examples/qar_context60/outputs/smoke/result_arrays/main/LinearDrift/predict_5_6/dataset_demo
+5,predict_8_9,dataset_demo,DEMO-QAR,NaiveLast,460,20,0.045021933317184445,0.002905766681916612,0.05390516377784796,0.0494635485475162,examples/qar_context60/outputs/smoke/result_arrays/main/NaiveLast/predict_8_9/dataset_demo
+5,predict_8_9,dataset_demo,DEMO-QAR,LinearDrift,460,20,0.009295186483197743,0.0001730907761893324,0.013156396778348258,0.011225791630773,examples/qar_context60/outputs/smoke/result_arrays/main/LinearDrift/predict_8_9/dataset_demo
